@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Leaf, BarChart2, CloudRain, Cpu , Droplets, LaptopMinimal} from 'lucide-react'
+import { ArrowRight, Leaf, BarChart2, Droplets, LaptopMinimal} from 'lucide-react'
 
 export default function LandingPage() {
   return (

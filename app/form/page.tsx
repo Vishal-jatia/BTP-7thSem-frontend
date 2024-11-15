@@ -5,7 +5,6 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Textarea } from "@/components/ui/textarea";
 import Loader from "@/components/ui/loader";
 
 import {
@@ -17,7 +16,7 @@ import {
 } from "@/components/ui/select";
 import { Toaster } from "@/components/ui/toaster";
 import { useToast } from "@/hooks/use-toast";
-import { Leaf, ArrowLeft } from "lucide-react";
+import { Leaf } from "lucide-react";
 
 export default function FormPage() {
 	const { toast } = useToast();
